@@ -7,7 +7,7 @@ def get_device_info(ip):
         'device_type': 'cisco_ios', 
         'host': ip,
         'username': 'liwenzhao',     # 确认是交换机账号
-        'password': 'Cctvvtcc@123',  # 确认是交换机密码
+        'password': '',  # 确认是交换机密码
         
         # 核心：只留这一个指向配置文件的参数，其他的 socksproxy 等全部删掉
         'ssh_config_file': '/home/lwz/.ssh/config',
